@@ -10,7 +10,7 @@ class Example {
     init() {
         this.scroll = new LocomotiveScroll({
             el: this.root,
-            direction: 'horizontal',
+            direction: 'vertical',
             smooth: true,
             lerp: 0.05,
             tablet: {
@@ -43,7 +43,7 @@ class Example {
             image.classList.remove('-active');
         });
 
-        setTimeout(this.showImages.bind(this), 2000);
+        setTimeout(this.showImages.bind(this), 12000);
     }
 }
 
