@@ -73,26 +73,6 @@ body {
             transform 1s ease;
     }
 
-    > .scrollsection > .item:nth-of-type(4n) > .image {
-        transform: translateX(-30vh) translateY(-30vh) scale(.8);
-        transition-delay: 0;
-    }
-
-    > .scrollsection > .item:nth-of-type(4n - 1) > .image {
-        transform: translateX(30vh) translateY(30vh) scale(.8);
-        transition-delay: .05s;
-    }
-
-    > .scrollsection > .item:nth-of-type(4n - 2) > .image {
-        transform: translateX(-30vh) translateY(30vh) scale(.8);
-        transition-delay: .1s;
-    }
-
-    > .scrollsection > .item:nth-of-type(4n - 3) > .image {
-        transform: translateX(-30vh) translateY(-30vh) scale(.8);
-        transition-delay: .15s;
-    }
-
     > .scrollsection > .item > .image.-active {
         transform: translateX(0) translateY(0) scale(1);
         opacity: .8;
@@ -102,14 +82,14 @@ body {
             transform 1s ease;
     }
 
-    /* > .scrollsection > .item > .image.-clicked {
+    > .scrollsection > .item > .image.-clicked {
         transform: translateX(0) translateY(0) scale(5);
         opacity: 0;
         pointer-events: auto;
         transition: filter .3s ease,
             opacity 1s ease,
             transform 1s ease;
-    } */
+    }
 
     > .scrollsection > .item > .image.-active:hover {
         height: 100%;
