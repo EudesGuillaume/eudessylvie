@@ -16,7 +16,7 @@ body {
     > .scrollsection > .item {
         display: inline-block;
         position: relative;
-        margin: 0 -30vh 0 3vh;
+        margin: 0 3vh 0 3vh;
     }
 
     > .scrollsection > .item::before {
@@ -47,14 +47,6 @@ body {
         width: 60vh;
     }
 
-    > .scrollsection > .item.-normal:nth-of-type(3n) {
-        bottom: 5vh;
-    }
-
-    > .scrollsection > .item.-normal:nth-of-type(4n) {
-        bottom: -5vh;
-    }
-
     > .scrollsection > .item.-small {
         height: 40vh;
         width: 30vh;
@@ -64,14 +56,6 @@ body {
     > .scrollsection > .item.-small.-horizontal {
         height: 30vh;
         width: 40vh;
-    }
-
-    > .scrollsection > .item.-small:nth-of-type(3n) {
-        bottom: 13vh;
-    }
-
-    > .scrollsection > .item.-small:nth-of-type(4n) {
-        bottom: -13vh;
     }
 
     > .scrollsection > .item > .image {
@@ -118,14 +102,14 @@ body {
             transform 1s ease;
     }
 
-    > .scrollsection > .item > .image.-clicked {
+    /* > .scrollsection > .item > .image.-clicked {
         transform: translateX(0) translateY(0) scale(5);
         opacity: 0;
         pointer-events: auto;
         transition: filter .3s ease,
             opacity 1s ease,
             transform 1s ease;
-    }
+    } */
 
     > .scrollsection > .item > .image.-active:hover {
         height: 100%;
@@ -136,43 +120,5 @@ body {
         filter: grayscale(0);
         opacity: 1;
         cursor: pointer;
-    }
-}
-
-
-.fake-ui {
-    font-size: 0;
-    
-    > .logo {
-        position: fixed;
-        top: 2vh;
-        left: 2vh;
-        height: 3vh;
-        width: 2.5vh;
-        border: solid 1vh #999;
-    }
-
-    > .nav {
-        position: fixed;
-        top: 2vh;
-        right: 2vh;
-    }
-
-    > .nav > .item {
-        background: #999;
-        display: inline-block;
-        height: 2vh;
-        width: 10vh;
-        margin-left: 2vh;
-    }
-
-    > .footer {
-        position: fixed;
-        bottom: 3vh;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 2vh;
-        width: 40vh;
-        background: #999;
     }
 }
