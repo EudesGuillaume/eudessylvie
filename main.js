@@ -46,3 +46,9 @@ class Example {
         setTimeout(this.showImages.bind(this), 2000);
     }
 }
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    const example = new Example({
+        root: document.querySelector('.scroll-animations-example')
+    });
+});
