@@ -74,7 +74,7 @@ body {
 
     > .scrollsection > .item > .image.-active {
         transform: translateX(0) translateY(0) scale(1);
-        opacity: .8;
+        opacity: .9;
         pointer-events: auto;
         transition:
             opacity 1s ease,
