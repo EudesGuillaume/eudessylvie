@@ -81,6 +81,12 @@ body {
         z-index: 1;
     }
 
+    > .scrollsection > .item.-rectangle {
+        height: 35vh;
+        width: 45vh;
+        z-index: 1;
+    }
+
     > .scrollsection > .item.-normal.-horizontal {
         height: 60vh;
         width: 60vh;
