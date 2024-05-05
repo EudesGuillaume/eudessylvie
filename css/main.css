@@ -9,7 +9,7 @@ body {
 
 .scroll-animations-example {
     > .scrollsection {
-        padding: 20vh 10vh 10vh 10vmax;
+        padding: 10vh 10vh 10vh 10vmax;
         min-width: 550vh;
     }
 
