@@ -30,9 +30,22 @@ body {
 .nav-link_item a{
     padding: 1.15vw 1.4vw;
 }
+
 .nav-link_item.top-left {
     top: 2vw;
     left: 3.5vw;
+}
+.nav-link_item.top-right {
+    top: 2vw;
+    right: 3.5vw;
+}
+.nav-link_item.bottom-left {
+    bottom: 2vw;
+    left: 3.5vw;
+}
+.nav-link_item.bottom-right {
+    bottom: 2vw;
+    right: 3.5vw;
 }
 
 .scroll-animations-example {
