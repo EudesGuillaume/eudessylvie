@@ -27,28 +27,28 @@ body {
     }
 
     > .scrollsection > .item.-big {
-        height: 80vh;
+        height: 60vh;
         width: 60vh;
     }
 
     > .scrollsection > .item.-big.-horizontal {
-        height: 60vh;
+        height: 80vh;
         width: 80vh;
     }
 
     > .scrollsection > .item.-normal {
-        height: 60vh;
+        height: 45vh;
         width: 45vh;
         z-index: 1;
     }
 
     > .scrollsection > .item.-normal.-horizontal {
-        height: 45vh;
+        height: 60vh;
         width: 60vh;
     }
 
     > .scrollsection > .item.-small {
-        height: 40vh;
+        height: 30vh;
         width: 30vh;
         z-index: 2;
     }
