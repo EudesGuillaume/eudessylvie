@@ -28,7 +28,7 @@ body {
     z-index: 5;
 }
 .nav-link_item a{
-    font-size: 1rem;
+    padding: 1.15vw 1.4vw;
 }
 .nav-link_item.top-left {
     top: 2vw;
