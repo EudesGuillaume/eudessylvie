@@ -3,14 +3,32 @@ html, body {
     background: #eee;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+    background-color: transparent;
+}
+}
 body {
     overflow: hidden;
+    font-size: 16px;
+    font-family: 'Zodiak-Variable';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
 }
 
 .nav-link_item{
     text-transform: uppercase;
     position: fixed;
     z-index: 5;
+}
+.nav-link_item a{
+    font-size: 1rem;
 }
 .nav-link_item.top-left {
     top: 2vw;
